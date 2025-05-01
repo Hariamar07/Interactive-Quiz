@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <style>
+        .main {
+            text-align: center;
+            display: inline-block;
+            border: solid black 2px;
+            position: relative;
+            left: 40%;
+            top: 200px;
+            padding: 10px;
+        }
+
+        .btn button {
+            display: inline-block;
+            background-color: green;
+            color: white;
+            position: relative;
+            left: 40%;
+            margin-top: 10px;
+            padding: 5px;
+            display: block;
+
+        }
+
+        #finalbox {
+            display: inline-block;
+            border: solid black 2px;
+            padding: 10px;
+            position: relative;
+            left: 45%;
+            top: 150px;
+            display: none;
+           
+            
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <div class="main">
+        <h1>Interactive Quiz</h1>
+
+        <div class="capital">
+            <p>1.What is the capital of India</p>
+
+            <label>
+                <input type="radio" name="q1" value="option1">
+                Tamilnadu
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="option2">
+                NewDelhi
+            </label>
+
+            <label>
+                <input type="radio" name="q1" value="option3">
+                Goa
+            </label>
+
+
+
+
+
+        </div>
+
+        <div class="planet">
+            <p>2.Which planet is known as red planet</p>
+
+            <label>
+                <input type="radio" name="q2" value="option1">
+                venus
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="option2">
+                mars
+            </label>
+
+            <label>
+                <input type="radio" name="q2" value="option3">
+                Jupiter
+            </label>
+
+
+
+
+        </div>
+
+        <div class="mammal">
+            <p>3.what is the largest mammal in Earth</p>
+
+            <label>
+                <input type="radio" name="q3" value="option1">
+                BlueWhale
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="option2">
+                Elephant
+            </label>
+
+            <label>
+                <input type="radio" name="q3" value="option3">
+                Giraffe
+            </label>
+
+
+
+        </div>
+
+        <div class="btn">
+            <button id="click">Submit</button>
+        </div>
+
+    </div>
+
+
+
+    <div id="finalbox">
+        <h1>Interactive Quiz</h1>
+        <h2>Your Quiz Result</h2>
+        <p id="result" >Score:</p>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
